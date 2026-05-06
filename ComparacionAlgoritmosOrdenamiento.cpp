@@ -5,6 +5,7 @@
 #include <vector>
 #include <algorithm>
 #include <string>
+#include <conio.h>
 using namespace std;
 using namespace chrono;
 
@@ -228,6 +229,6 @@ int main() {
             <<setw(20)<<resultados[i].pasos
             <<setw(20)<<resultados[i].tiempo_ns<<endl;
     }
-
+    getch();
     return 0;
 }
