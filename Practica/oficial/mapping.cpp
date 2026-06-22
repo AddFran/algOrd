@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 bool esta_ordenado(int arreglo[],int n){
@@ -29,10 +28,7 @@ int contar_caminos_minimos(int arreglo[],int n){
     return contador;
 }
 
-int main() {
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
-    
+int main(){
     int n;
     int case_num=1;
     

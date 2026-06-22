@@ -27,14 +27,23 @@ int contar_caminos_minimos(int arreglo[], int n) {
         if (arreglo[i] > arreglo[i + 1]) {
             // Realizar el intercambio
             swap(arreglo[i], arreglo[i + 1]);
-            
             // Llamada recursiva para el siguiente paso
             contador += contar_caminos_minimos(arreglo, n);
-            
             // Retroceso (Backtrack): deshacer el intercambio
             swap(arreglo[i], arreglo[i + 1]);
         }
     }
+
+    /*
+                                        |-- 1 2 3 -- ordenado
+                            |-- 2 1 3 --|
+                |-- 2 3 1 --|
+        3 2 1 --| 
+                |                       | -- 1 2 3 -- ordenado
+                |           |-- 1 3 2 --|
+                |-- 3 1 2 --|
+
+    */
     
     return contador;
 }
