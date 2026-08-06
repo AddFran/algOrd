@@ -1,0 +1,38 @@
+# El Misterioso Asesino de la Celda 5
+
+Una antigua cárcel estaba sufriendo de una serie de misteriosos asesinatos en la celda número 5, varias veces se revisó la celda sin obtener pista alguna sobre el misterioso asesino de los reclusos. Un día, un prestigioso detective comprometido a resolver el misterio se atrevió a pasar una noche en dicha celda, su estrategia, mantenerse despierto para sorprender al asesino. Ya en la madrugada y para su sorpresa, de entre las piedras apareció un enorme escorpión. Afortunadamente nuestro detective usaba sombrero de copa, con el cuál pudo atrapar al asesino y exponer el curioso caso.
+
+Debido al problema con los escorpiones, un problema climático y a un grave caso de corrupción del alcaide es que dicho recinto quedó abandonado, y por razones que ambos desconocemos, terminaste en una de las celdas de la prisión abandonada.
+
+Como no sabes si la celda que te tocó corresponde a la celda 5, estarás un poco nervioso por el problema de los escorpiones, pero no te preocupes, ya que resolviendo este problema quedarás salvado, solo recuerda, los escorpiones solo te atacaran si es que los molestas mientras éstos descansan en alguna grieta en tu celda.
+
+## Problema
+
+Tu celda se puede dividir en una cuadrícula, en donde cada cuadro tiene un lado de longitud de 1 metro. Deberás escribir un programa que reciba como entrada las coordenadas en dónde le gusta dormir al alacrán y encuentre todos los lugares adecuados para poner tu cama sin que haya posibilidad de molestar a los escorpiones.
+
+Algún escorpión se molestará si tu cama está sobre alguno de los cuadros en los que les gusta dormir. Tu cama ocupa un espacio de 2x2 metros.
+
+## Entrada
+
+Tu programa deberá leer de entrada estándar los siguientes datos:
+- En la primera línea los números 0<L,A ≤ 100 los cuales representan el largo y el ancho de tu cuarto en metros.
+- En la segunda línea el número 0<N ≤ 5000 de lugares en donde le gusta dormir al alacrán.
+- Por último en las siguientes N líneas habrá 2 números enteros en cada una que indican una coordenada del cuarto en donde le gusta dormir al alacrán.
+- La esquina inferior izquierda de tu cuarto está representada por la coordenada (1,1).
+
+## Salida
+
+Tu programa deberá escribir en salida estándar un único número que indique cuántas formas distintas hay de acomodar tu cama sin peligro de ser picado por el alacrán. Dos formas se consideran distintas si ocupan al menos un cuadro distinto del cuarto.
+
+## Ejemplo
+## Input
+
+4 4
+3
+1 1
+2 3
+1 4
+
+## Output
+
+4
